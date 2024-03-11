@@ -116,14 +116,14 @@
 	#define BUTTON_1_SHORT    CMD_PLAYPAUSE
 	#define BUTTON_2_SHORT    CMD_PREVTRACK
 	#define BUTTON_3_SHORT    CMD_MEASUREBATTERY
-	#define BUTTON_4_SHORT    CMD_SEEK_BACKWARDS
+	#define BUTTON_4_SHORT    CMD_NOTHING
 	#define BUTTON_5_SHORT    CMD_SEEK_FORWARDS
 
 	#define BUTTON_0_LONG     CMD_LASTTRACK
 	#define BUTTON_1_LONG     CMD_PLAYPAUSE
 	#define BUTTON_2_LONG     CMD_FIRSTTRACK
 	#define BUTTON_3_LONG     CMD_SLEEPMODE
-	#define BUTTON_4_LONG     CMD_VOLUMEUP
+	#define BUTTON_4_LONG     CMD_SLEEPMODE
 	#define BUTTON_5_LONG     CMD_VOLUMEDOWN
 
 	// Rotary gestures: hold the button, turn the encoder. CMD_NOTHING disables the button as a modifier.
