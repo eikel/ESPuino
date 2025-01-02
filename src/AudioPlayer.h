@@ -9,7 +9,7 @@
 #endif
 
 #define AUDIOPLAYER_VOLUME_MAX	21u
-#define AUDIOPLAYER_VOLUME_MIN	0u
+#define AUDIOPLAYER_VOLUME_MIN	3u
 #define AUDIOPLAYER_VOLUME_INIT 3u
 
 enum class playlistSortMode : uint8_t {
